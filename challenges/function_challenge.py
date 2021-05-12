@@ -12,6 +12,6 @@ def find_three_numbers(file_name):
         for k in range(i + 2, len(numbers)):
           if (int(numbers[i]) + int(numbers[j]) + int(numbers[k])) == 2020:
             print(int(numbers[i]) * int(numbers[j]) * int(numbers[k]))
-            break
+            return
 
 find_three_numbers("puzzle1.txt")
