@@ -25,4 +25,4 @@ while chance:
         chance = chance - 1
         print(f"Wrong! Try again, you have {chance} chances left!\n")
 
-print(f"Great job on guessing whethere you got it right or not. My favorite marvel hero is {answers[0]} and my second favorite marvel hero is {answers[1]}")
+print(f"Great job on guessing whethere you got it right or not. My favorite marvel hero is {answers[0]} and my second favorite marvel hero is {answers[1]}.")
