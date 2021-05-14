@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-def fizzbuzz(max):
-  for i in range(1, max + 1):
+def fizzbuzz(min, max):
+  for i in range(min, max + 1):
     if (i % 3 == 0 and i % 5 == 0):
       print("FizzBuzz")
     elif (i % 3 == 0):
@@ -11,4 +11,4 @@ def fizzbuzz(max):
     else:
       print(i)
 
-fizzbuzz(100)
+fizzbuzz(1, 100)
