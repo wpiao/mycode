@@ -1,6 +1,4 @@
 #!/usr/bin/env python3
-import pandas as pd
-import datetime
 import requests
 from bs4 import BeautifulSoup
 from requests.exceptions import ConnectionError
